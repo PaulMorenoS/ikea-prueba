@@ -1,0 +1,46 @@
+<div class="page" id="htmlData">
+    <div>
+      <br>
+      <h1 class="t-l-bold" style="font-size: 60px;">GLIMMA</h1>
+      <h1 class="t-c-regular" style="font-size: 50px;">小蠟燭</h1>
+      <p class="t-c-regular" style="font-size: 30px;">
+        <mat-icon>play_arrow</mat-icon>運用小蠟燭布置家居, 營造柔和愜意的氛圍
+      </p>
+      <br>
+      <h5 class="t-l-regular c-dg" style="font-size: 35px;">unscented tealight</h5>
+      <p class="t-l-regular c-dg" style="font-size: 19px;">
+        <mat-icon>play_arrow</mat-icon>You can place small tealights all over the home to create a soft and pleasant
+        atmosphere
+      </p>
+      <div style="margin-top: 80mm">
+        <div class="t-a-c">
+          <span class="t-l-bold f-zp"><sup>$</sup>19<sup>90</sup><span class="f-zpieces">/24 件
+              Pieces</span></span>
+        </div>
+  
+        <div class="d-a-v">
+          <p class="t-l-bold t-a-v">© Inter IKEA Systems B.V2021</p>
+        </div>
+  
+        <div class="d-qr">
+          <qr-code [value]="value" [size]="size" errorCorrectionLevel="M" [margin]="margin"></qr-code>
+          <p class="t-a-c">中文</p>
+        </div>
+  
+        <div class="d-qr">
+          <qr-code [value]="value" [size]="size" errorCorrectionLevel="M" [margin]="margin"></qr-code>
+          <p class="t-a-c">English</p>
+        </div>
+  
+        <div class="d-img">
+          <img class="img-poster" src="../../assets/logoIkea.svg" alt="logo">
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  <div>
+    <button class="btn col col-lg-4 btn-danger btn-block ml-4" style="margin-right: 15px;" (click)="downloadPDF()">Download PDF</button>
+    <button class="btn col col-lg-4 btn-danger btn-block ml-4" (click)="atras()">Atras</button>
+  </div>

@@ -1,0 +1,60 @@
+<div class="page-rack" id="htmlData">
+    <div class="sub-rack">
+        <div class="row">
+            <div class="col-3">
+                <h1 class="t-l-bold" style="font-size: 35px;">GLIMMA</h1>
+                <h1 class="t-c-regular" style="font-size: 20px;">小蠟燭</h1>
+                <h5 class="t-l-regular c-dg" style="font-size: 15px;">Unscented Tealight</h5>
+            </div>
+            <div class="col-7">
+                <p class="t-c-regular" style="font-size: 15px;">
+                    <mat-icon>play_arrow</mat-icon>運用小蠟燭布置家居, 營造柔和愜意的氛圍
+                </p>
+                <p class="t-l-regular c-dg" style="font-size: 14px;">
+                    <mat-icon>play_arrow</mat-icon>You can place small tealights all over the home to create a soft and
+                    pleasant
+                    atmosphere
+                </p>
+            </div>
+            <div class="col-2">
+                <div class="d-img-rack">
+                    <img class="img-rack" src="../../assets/ikea-logo-1.jpg" alt="logo">
+                </div>
+                <div class="d-a-v-rack">
+                    <p class="t-l-bold t-a-v-rack">© Inter IKEA Systems B.V2021</p>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 20mm;">
+            <div class="row">
+                <div class="col-4">
+                    <div class="d-qr">
+                        <qr-code [value]="value" [size]="size" errorCorrectionLevel="M" [margin]="margin"></qr-code>
+                        <p class="t-a-c">中文</p>
+                    </div>
+
+                    <div class="d-qr">
+                        <qr-code [value]="value" [size]="size" errorCorrectionLevel="M" [margin]="margin"></qr-code>
+                        <p class="t-a-c">English</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <p class="c-b-b t-l-bold">001.449.37</p>
+                </div>
+                <div class="col-5">
+                    <div class="t-a-rack">
+                        <p class="t-l-bold f-zp-rack"><sup>$</sup>19.90<span class="t-l-regular f-zpieces-rack">/24 件 Pieces</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <button class="btn col col-lg-4 btn-danger btn-block ml-4" style="margin-right: 15px;"
+        (click)="downloadPDF()">Download PDF</button>
+    <button class="btn col col-lg-4 btn-danger btn-block ml-4" (click)="atras()">Atras</button>
+</div>
