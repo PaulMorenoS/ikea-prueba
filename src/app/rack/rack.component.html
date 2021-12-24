@@ -40,11 +40,19 @@
                 </div>
 
                 <div class="col-3">
-                    <p class="c-b-b t-l-bold">001.449.37</p>
+                    <div class="d-qr">
+                        <qr-code [value]="value" [size]="size" errorCorrectionLevel="M" [margin]="margin" darkColor="#FFFFFFFF"></qr-code>
+                        <p class="c-b-b t-l-bold">001.449.37</p>
+                    </div>
+      
+                    
                 </div>
                 <div class="col-5">
-                    <div class="t-a-rack">
-                        <p class="t-l-bold f-zp-rack"><sup>$</sup>19.90<span class="t-l-regular f-zpieces-rack">/24 件 Pieces</span></p>
+                    <div class="d-qr">
+                        <div class="t-a-rack">
+                            <qr-code [value]="value" size="30" errorCorrectionLevel="M" [margin]="margin" darkColor="#FFFFFFFF"></qr-code>
+                            <p class="t-l-bold f-zp-rack"><sup>$</sup>19.90<span class="t-l-regular f-zpieces-rack">/24 件 Pieces</span></p>
+                        </div>
                     </div>
                 </div>
 

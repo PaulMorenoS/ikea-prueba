@@ -11,6 +11,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { RackComponent } from './rack/rack.component';
 
 const routes: Routes = [
+  { path: '', component: InicioComponent },
   { path: 'inicio', component: InicioComponent },
   { path: 'poster', component: PosterComponent },
   { path: 'rack', component: RackComponent }
